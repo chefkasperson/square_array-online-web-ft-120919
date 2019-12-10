@@ -1,6 +1,4 @@
 def square_array(array)
-  array.each {|number|
-    x = number * number
-    x}
+  array.each {|n| n * n}
   # your code here
 end
